@@ -4,15 +4,15 @@ import LogoImg from '/logo.png'
 
 const index = () => {
   return (
-    <Container>
+    <Container id='Header'>
         <LogoWrapper>
           <Logo src={LogoImg}/>
         </LogoWrapper>
         <InfoWrapper>
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Localização</a>
-            <a href="#">Contato</a>
+            <a href="#Home">Home</a>
+            <a href="#About">Sobre</a>
+            <a href="#Location">Localização</a>
+            <a href="#Contact">Contato</a>
         </InfoWrapper>
     </Container>
   )

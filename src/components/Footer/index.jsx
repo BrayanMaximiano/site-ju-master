@@ -10,9 +10,9 @@ const index = () => {
         </Left>
         <Right>
           <SocialMedia>
-          <InstagramLogo size={50} weight="bold" />
-          <FacebookLogo size={50} weight="bold" />
-          <LinkedinLogo size={50} weight="bold" />
+            <a href="www.instagram.com"><InstagramLogo size={50} weight="bold" /></a>
+          <a href="www.facebook.com"><FacebookLogo size={50} weight="bold" /></a>
+          <a href="www.linkedin.com"><LinkedinLogo size={50} weight="bold" /></a>
 
           </SocialMedia>
         </Right>

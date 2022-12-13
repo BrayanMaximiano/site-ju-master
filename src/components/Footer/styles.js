@@ -30,8 +30,13 @@ export const SocialMedia = styled.div`
     align-items: center;
     justify-content: center;
 
-    svg{
-        margin-left: 1rem;
-        
+   a{
+    color: #808080;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    transition: all ease 0.5s;
+    &:hover{
+        color: darkgray;
+    }
     }
 `

@@ -5,7 +5,9 @@ import { Container } from './styles'
 
 const index = () => {
   return (
-     <Container><a><ArrowUp size={32} weight="bold" /></a></Container>
+     <Container>
+      <a href='#Header'><ArrowUp size={32} weight="bold" /></a>
+      </Container>
   )
 }
 

@@ -3,7 +3,7 @@ import { AboutContent, AboutWrapper, Container, FotoImg, FotoWrapper, Title } fr
 
 const index = () => {
   return (
-    <Container>
+    <Container id='About'>
         <FotoWrapper>
             <FotoImg />
         </FotoWrapper>

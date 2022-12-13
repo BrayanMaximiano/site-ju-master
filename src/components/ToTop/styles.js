@@ -16,6 +16,17 @@ export const Container = styled.div`
     justify-content: center;
 
     a{
-        rotate: -45deg;
-    }
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg{
+            rotate: -45deg;
+        }
+        }
 `
