@@ -8,6 +8,11 @@ export const Container = styled.footer`
     display: flex;
     justify-content: center;
     align-items: center ;
+
+    @media (max-width:420px){
+        height: 25vh;
+        margin-bottom: 2rem;
+    }
 `
 
 export const Left = styled.div`
@@ -17,6 +22,10 @@ export const Left = styled.div`
     justify-content: center;
     font-size: 2rem;
     color:#808080;
+
+    @media (max-width:420px){
+        font-size: 1.5rem;
+    }
 `
 export const Right = styled.div`
     flex:1;
@@ -38,5 +47,11 @@ export const SocialMedia = styled.div`
     &:hover{
         color: darkgray;
     }
+    }
+
+    @media (max-width:420px){
+        a{
+            margin-left: 1rem;
+        }
     }
 `

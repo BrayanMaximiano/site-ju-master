@@ -29,4 +29,8 @@ export const Container = styled.div`
             rotate: -45deg;
         }
         }
+        
+        @media (max-width:420px){
+            left: 46%;
+        }
 `

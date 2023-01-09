@@ -8,6 +8,11 @@ export const Container = styled.div`
     justify-content: space-around;
     margin-top: -20px;
     
+    @media (max-width:420px){
+        margin-top: -500px;
+        margin-bottom: -150px;
+        flex-direction: row-reverse;
+}
     
 
 `
@@ -16,19 +21,34 @@ export const FotoWrapper = styled.div`
     background: green ;
     width: 30%;
     margin-bottom: 20px;
+
+    @media (max-width:420px){
+        background: transparent;
+        position: absolute;
+        width: 100%;
+        height: 69%;
+        right: 0;
+    }
 `
-export const FotoImg = styled.div`
+export const FotoImg = styled.img`
     height: 100%;
     width: 100%;
 `
 export const AboutWrapper = styled.div`
-    height: fit-content;
+    height: 100vh;
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
+
+    @media (max-width:420px){
+        width: 100%;
+        z-index: 2;
+        
+
+    }
 
 `
 export const Title = styled.div`
@@ -39,6 +59,10 @@ export const Title = styled.div`
     text-decoration: underline;
     color: #1F9E69;
     z-index: 99999;
+
+    @media (max-width:420px){
+        text-align: center;
+}
 `
 export const AboutContent = styled.div`
     padding: 25px;
@@ -47,4 +71,11 @@ export const AboutContent = styled.div`
     background-color: rgba(110,255,241,0.3);
     border: 2px solid #1F9E69;
     border-radius: 8px;
+
+    @media (max-width: 420px) {
+        margin-left: -20px;
+        background: rgba(255, 255, 255, 0.3);
+        font-size: 16px;
+        border: none;
+    }
 `

@@ -26,6 +26,11 @@ export const FormContainer = styled.form`
  align-items: center;
  justify-content: center;
  flex-direction: column;
+
+ @media (max-width:420px){
+   width: 100%;
+   padding: 20px;
+ }
 `
 
 export const Input = styled.input`
@@ -41,6 +46,9 @@ export const Input = styled.input`
 
  ::placeholder{
     color:white;
+ }
+
+ @media (max-width:420px){
  }
 `
 export const TextArea = styled.textarea`
@@ -72,6 +80,11 @@ cursor: pointer;
 
 ::placeholder{
     color:white;
+}
+
+@media (max-width:420px){
+   height: 56px;
+   width: 260px;
 }
 
 `

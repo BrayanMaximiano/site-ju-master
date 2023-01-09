@@ -10,6 +10,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width:420px){
+    background-size: 120vh;
+    height: 120vh;
+}
 `;
 
 export const InfoWrapper = styled.div`
@@ -23,15 +28,29 @@ export const InfoWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   padding: 10px;
+
+ @media (max-width:420px){
+   height: 20rem;
+   width: 20rem;
+   margin-top: -150px;
+ }
 `;
 export const Title = styled.h2`
   color: white;
   font-size: 32px;
   margin-bottom: 20px;
+
+  @media (max-width:420px){
+    font-size: 25px;
+}
 `;
 export const Info = styled.p`
   color: white;
   text-align: center;
+
+  @media (max-width:420px){
+    font-size: 16px;
+}
 `;
 export const WaveContainer = styled.div`
   position: absolute;
@@ -39,6 +58,13 @@ export const WaveContainer = styled.div`
   width: 100%;
   padding: 0;
   margin-bottom: -5px;
+  
+
+  @media (max-width:420px){
+    width: 100%;
+    position: absolute;
+    margin-bottom: 170px;
+}
 `;
 export const Svg = styled.img`
   height: 100%;
