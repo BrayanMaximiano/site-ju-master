@@ -15,6 +15,10 @@ export const Container = styled.div`
     background-size: 120vh;
     height: 120vh;
 }
+
+@media (max-width:375px){
+
+}
 `;
 
 export const InfoWrapper = styled.div`
@@ -34,6 +38,12 @@ export const InfoWrapper = styled.div`
    width: 20rem;
    margin-top: -150px;
  }
+
+ @media (max-width:375px){
+  margin-bottom: 30px;
+ }
+
+ 
 `;
 export const Title = styled.h2`
   color: white;
@@ -65,6 +75,13 @@ export const WaveContainer = styled.div`
     position: absolute;
     margin-bottom: 170px;
 }
+@media (max-width: 390px){
+    margin-bottom: 150px;
+  }
+  @media (max-width: 375px){
+    margin-bottom: 125px;
+  }
+  
 `;
 export const Svg = styled.img`
   height: 100%;

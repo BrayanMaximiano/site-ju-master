@@ -11,7 +11,11 @@ export const Container = styled.footer`
 
     @media (max-width:420px){
         height: 25vh;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
+    }
+
+    @media (max-width:390px){
+        margin-bottom: 0;
     }
 `
 

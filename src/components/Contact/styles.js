@@ -17,6 +17,10 @@ export const Title = styled.h1`
  color: white;
  text-align: center;
  margin-bottom: 2rem;
+
+ @media (max-width:375px){
+   font-size: 2rem;
+ }
 `
 
 export const FormContainer = styled.form`
@@ -85,6 +89,9 @@ cursor: pointer;
 @media (max-width:420px){
    height: 56px;
    width: 260px;
+}
+@media (max-width:375px){
+   overflow-y: hidden;
 }
 
 `

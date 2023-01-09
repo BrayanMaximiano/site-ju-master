@@ -12,7 +12,17 @@ export const Container = styled.div`
         margin-top: -500px;
         margin-bottom: -150px;
         flex-direction: row-reverse;
-}
+    }
+
+    @media (max-width:390px){
+        margin-top: -400px;
+    };
+
+    @media (max-width:375px){
+        margin-top: -290px;
+    };
+
+    
     
 
 `
@@ -21,6 +31,7 @@ export const FotoWrapper = styled.div`
     background: green ;
     width: 30%;
     margin-bottom: 20px;
+    overflow: hidden;
 
     @media (max-width:420px){
         background: transparent;
@@ -28,6 +39,15 @@ export const FotoWrapper = styled.div`
         width: 100%;
         height: 69%;
         right: 0;
+    }
+
+    @media (max-width: 375px){
+        margin-top: -110px;
+        height: 80%;
+    }
+    @media (max-width:390px){
+        
+        margin-bottom: 33px;
     }
 `
 export const FotoImg = styled.img`
@@ -46,8 +66,11 @@ export const AboutWrapper = styled.div`
     @media (max-width:420px){
         width: 100%;
         z-index: 2;
-        
+    }
 
+    @media (max-width: 375px){
+        margin-bottom: 20px;
+        
     }
 
 `
@@ -62,13 +85,19 @@ export const Title = styled.div`
 
     @media (max-width:420px){
         text-align: center;
-}
+    }
+    @media (max-width:375px){
+        font-size: 2rem;
+    }
 `
 export const AboutContent = styled.div`
     padding: 25px;
     text-align: center;
     font-size: 18px;
-    background-color: rgba(110,255,241,0.3);
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border: 2px solid #1F9E69;
     border-radius: 8px;
 

@@ -45,6 +45,7 @@ export const InfoWrapper = styled.div`
   @media (max-width:420px){
       padding-left: 0;
     }
+    
 
   a{
     color: white;
@@ -55,6 +56,10 @@ export const InfoWrapper = styled.div`
     @media (max-width:420px){
       margin-left: 10px;
     }
+    @media (max-width:375px){
+      font-size: 16px;
+    }
+    
 
     &:hover{
         text-decoration: underline;
